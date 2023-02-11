@@ -21,6 +21,6 @@ int CountPositiveInteger (int[] array)
     }
     return count;
 }   
-int[] array1 = GetArray (4, 100, 999);
+int[] array1 = GetArray (4, 100, 1000);
 Console.WriteLine(String.Join(", ", array1));
 Console.WriteLine($"Количество четных чисел в массиве равно {CountPositiveInteger(array1)}");
