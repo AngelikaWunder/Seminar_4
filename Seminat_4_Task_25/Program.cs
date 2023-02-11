@@ -6,8 +6,12 @@
 
 double Exponent (int numA, int numB)
 {
-   double res = Math.Pow(numA, numB);
-   return res = Math.Round(res, 2);
+   int res = 1;
+   for (int i=1; i <= numB; i++)
+   {
+      res = res*numA;
+   }
+   return res;
 }
 Console.Write("Введите число А: ");
 int A = int.Parse(Console.ReadLine()!);
