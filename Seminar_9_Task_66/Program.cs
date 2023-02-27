@@ -4,6 +4,7 @@
 
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
+Console.Clear();
 int SumFor(int M, int N)
 {
     if (M == N) return N;
